@@ -1,6 +1,5 @@
-Django>=5.0.6,<5.1
-psycopg2-binary>=2.9.9,<2.10
 asgiref==3.8.1
+Django==5.0.6
 django-stubs==5.0.2
 django-stubs-ext==5.0.2
 flake8==7.0.0
