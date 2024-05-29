@@ -52,5 +52,7 @@ class SiteSetup(models.Model):
     show_pagination: bool = models.BooleanField(default=True)
     show_footer: bool = models.BooleanField(default=True)
 
+    objects = models.Manager()
+
     def __str__(self) -> str:
         return str(self.title)
