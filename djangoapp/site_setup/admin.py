@@ -37,7 +37,7 @@ class SiteSetupAdmin(admin.ModelAdmin):
 
     def has_add_permission(self, request):
         """
-        Returns a boolean indicating whether the user has permission to add a
-        new SiteSetup object.
+        Returns a boolean indicating whether the user has permission to add
+        a new SiteSetup object.
         """
         return not SiteSetup.objects.exists()
